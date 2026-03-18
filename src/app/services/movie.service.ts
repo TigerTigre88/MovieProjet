@@ -8,7 +8,7 @@ import { Observable,map } from 'rxjs';
 })
 export class MovieService {
   private API_URL = 'https://api.themoviedb.org/3';
-  private API_KEY = 'ce95410036ae0babdb5ab4308a1ab6a0'; // Sostituisci con la chiave API reale!
+  private API_KEY = ''; // Sostituisci con la chiave API reale!
 
   constructor(private http: HttpClient) {
   }
